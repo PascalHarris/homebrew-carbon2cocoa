@@ -1,0 +1,30 @@
+# Homebrew Tap for carbon2cocoa
+
+This tap contains the Homebrew formula for [carbon2cocoa](https://github.com/pascalharris/carbon2cocoa),
+a tool to convert legacy Carbon XIB/NIB files to modern Cocoa format.
+
+## Installation
+
+```bash
+brew tap pascalharris/carbon2cocoa
+brew install carbon2cocoa
+```
+
+Or install directly:
+
+```bash
+brew install pascalharris/carbon2cocoa/carbon2cocoa
+```
+
+## Usage
+
+```bash
+carbon2cocoa input.xib           # Convert XIB file
+carbon2cocoa input.nib           # Convert NIB package
+carbon2cocoa --help              # Show help
+```
+
+## More Information
+
+- [carbon2cocoa on GitHub](https://github.com/pascalharris/carbon2cocoa)
+- [Manual page](https://github.com/pascalharris/carbon2cocoa/blob/main/carbon2cocoa.1)
