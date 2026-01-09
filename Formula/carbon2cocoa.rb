@@ -2,7 +2,7 @@ class Carbon2cocoa < Formula
   desc "Convert Carbon HIToolbox XIB/NIB files to modern Cocoa format"
   homepage "https://github.com/pascalharris/carbon2cocoa"
   url "https://github.com/pascalharris/carbon2cocoa/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "557bd873d2d6bf18ad3e8ba1b52462380d45e7d56b8ce1a8fa62e249293b52af"
+  sha256 "22ea2ba61c680c25fe5040d71b6376710bccbd320041740c50340738228e7fdc"
   license "MIT"
   head "https://github.com/pascalharris/carbon2cocoa.git", branch: "main"
 
