@@ -10,7 +10,7 @@ class Carbon2cocoa < Formula
     system "make", "CC=#{ENV.cc}", "PREFIX=#{prefix}"
     bin.install "carbon2cocoa"
     man1.install "carbon2cocoa.1"
-  end
+  end 
 
   test do
     assert_match "carbon2cocoa version #{version}", shell_output("#{bin}/carbon2cocoa --version")
